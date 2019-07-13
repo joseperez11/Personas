@@ -41,12 +41,8 @@ public class Persona {
         Datos.guardar(this);
     }
 
-    public void limpiar (View v){
-        cedula.setText("");
-        nombre.setText("");
-        apellido.setText("");
-        cedula.setText("");
+
 
     }
 
-}
+

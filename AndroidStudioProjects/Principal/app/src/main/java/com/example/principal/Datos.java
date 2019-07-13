@@ -1,8 +1,11 @@
 package com.example.principal;
 
+import android.widget.TableLayout;
+
 import java.util.ArrayList;
 
 public class Datos {
+
 
     private static ArrayList<Persona> Personas = new ArrayList<>();
     public static void guardar(Persona p) {

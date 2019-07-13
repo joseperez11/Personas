@@ -34,15 +34,22 @@ public class CrearPersonas extends AppCompatActivity {
     }
 
 
-    public void guardar (View v){
-        String nom,apell, ced;
+    public void guardar(View v) {
+        String nom, apell, ced;
         Persona p;
         ced = cedula.getText().toString();
         nom = nombre.getText().toString();
         apell = apellido.getText().toString();
-        p = new Persona(ced,nom,apell);
+        p = new Persona(ced, nom, apell);
         p.guardar();
 
 
+    }
+
+    public void limpiar(View v) {
+        cedula.setText("");
+        nombre.setText("");
+        apellido.setText("");
+        cedula.setText("");
     }
 }
