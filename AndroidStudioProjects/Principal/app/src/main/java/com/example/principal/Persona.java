@@ -1,5 +1,7 @@
 package com.example.principal;
 
+import android.view.View;
+
 public class Persona {
     private String cedula;
     private String nombre;
@@ -34,4 +36,17 @@ public class Persona {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    public void guardar (){
+        Datos.guardar(this);
+    }
+
+    public void limpiar (View v){
+        cedula.setText("");
+        nombre.setText("");
+        apellido.setText("");
+        cedula.setText("");
+
+    }
+
 }
