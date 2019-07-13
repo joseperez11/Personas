@@ -4,9 +4,16 @@
     <string name="cedula">Digite Cédula</string>
     <string name="nombre">Nombre</string>
     <string name="titulo">Agregar Nombre</string>
-    <string name="titulo">Agregar Nombre</string>
+
     <string name="apellido">Apellido</string>
     <string name="agregar">Agregar</string>
     <string name="limpiar">Limpiar</string>
     <string name="numero">Numero</string>
+    <string name="opcion1">Agregar</string>
+    <string name="opcion2">Listar</string>
+    <string-array name="opciones_lista">
+        <item>@string/opcion1</item>
+        <item>@string/opcion2</item>
+    </string-array>
+
 </resources>
